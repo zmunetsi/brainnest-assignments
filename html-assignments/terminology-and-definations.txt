@@ -1,31 +1,87 @@
 HTML
 1. What do HTML and CSS stand for?
+---- HTML stands for HyperText Markup Language.
+---- Cascading Style Sheet.
+
 2. Would you rather use HTML or CSS, for putting paragraphs of text on a webpage?
+---- I will use HTML
+
 3. Would you rather use HTML or CSS, to change the font and background color of a
 button?
+---- I wll use CSS.
+
 4. What is an HTML tag?
-5. What are the three parts of an HTML element? (image from paragraph)
+---- is an HTML unit for enclosing HTML body. 
+
+5. What are the three parts of an HTML element? 
+---- tag, body, attributes.
+
 6. What is the purpose of the doctype declaration?
+---- Declare the version and standards for the HTML.
+
 7. What is the HTML element?
+---- An element consist on a tag, body and attributes.
+
 8. What is the purpose of the head element?
+---- In the head HTML tags are tags.
+
 9. What is the purpose of the body element?
+---- Display content.
+
 10. How do you create a paragraph in HTML?
+---- opening p and closing tag.
+
 11. How do you create a heading in HTML?
+---- We use H1, H2, H3, H4, H5, H6 tags to create headings.
+
 12. How many different levels of headings are there and what is the difference between
 them?
+---- H1, H2, H3, H4, H5, H6 and we use them to highlight different importance. They differ in font sizes.
+
 13. What element should you use to make text bold and important?
+---- <strong> Strong element.
+
 14. What element should you use to make text italicized to add emphasis to it?
+---- <em> Emphasis element
+
 15. What relationship does an element have with any nested elements within it?
+---- Its the parent of nested elements and nested elements are children.
+
 16. What relationship do two elements have if they are at the same level of nesting?
+---- they are siblings
+
 17. How do you create HTML comments?
+---- <!--    -->
+
 18. What HTML tag is used to create an unordered list?
+---- <ul></ul>
+
 19. What HTML tag is used to create an ordered list?
+---- <ol></ol>
+
 20. What HTML tag is used to create list items within both unordered and ordered lists?
+---- <li></li>
+
 21. What element is used to create a link?
+---- anchor text element <a>
+
 22. What is an attribute?
+---- property associated with an HTML element. eg: id, class attribute
+
 23. What attribute tells links where to go?
+---- href attribute
+
 24. What is the difference between an absolute and relative link?
+---- absolute links reference current link from the root and usually link to another domain where relative links reference another link relative to the current link in same domain.
+
 25. Which element is used to display an image?
+---- <img>
+
 26. What two attributes do images always need to have?
+---- src source , alt
+
 27. How do you access a parent directory in a file path?
+---- foward slash /
+
 28. What are the four main image formats that you can use for images on the web?
+---- png/pneg, jpeg/jpg, svg, webp
