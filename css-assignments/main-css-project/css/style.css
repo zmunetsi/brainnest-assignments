@@ -20,6 +20,10 @@ a{
   color: #fff;
 }
 
+img{
+  max-width: 100%;
+}
+
 li{
   list-style: none;
 }
@@ -34,15 +38,6 @@ h2{
   font-weight: 700;
 }
 
-.m-container{
-  padding: 0 12%;
-}
-
-.m-row{
-  display: flex;
-  padding: 60px 0;
-}
-
 header, footer{
   background: #1F2937;
   color: #fff;
@@ -50,6 +45,15 @@ header, footer{
 
 nav{
   justify-content: space-between;
+}
+
+.m-container{
+  padding: 0 12%;
+}
+
+.m-row{
+  display: flex;
+  padding: 60px 0;
 }
 
 .menu{
@@ -73,6 +77,10 @@ nav{
 .menu-item{
   list-style: none;
   padding: 0 20px;
+}
+
+#testimonial-content p{
+  margin: 0 12%;
 }
 
 .md-flex{
@@ -259,6 +267,10 @@ nav{
   text-align: center;
 }
 
+.text-right{
+  text-align: right;
+}
+
 .text-normal{
   font-weight: 400;
 }
@@ -289,4 +301,17 @@ nav{
 
 .mbr-5{
   border-radius: 5px;
+}
+
+/* media query mobile */
+
+@media screen and (max-width: 768px) {
+  .m-row, .md-flex{
+    flex-direction: column;
+  }
+
+  .card-body {
+    margin: 0;
+    padding: 0;
+  }
 }
