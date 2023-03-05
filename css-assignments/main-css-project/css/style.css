@@ -38,6 +38,11 @@ h2{
   font-weight: 700;
 }
 
+h5{
+  font-size: 18px;
+  font-weight: 700;
+}
+
 header, footer{
   background: #1F2937;
   color: #fff;
@@ -277,6 +282,7 @@ nav{
 
 .text-italic{
   font-style: italic;
+  font-size: 36px;
 }
 
 .text-bold{
